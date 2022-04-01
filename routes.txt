@@ -1,0 +1,27 @@
+1.
+Method => POST 
+Usage  =>  SignUp (create user)
+API Endpoint => /api/v1/auth/signup
+Request body =>{
+    name:"your name",
+    email:"youremail@mail.com",
+    password:"Password@321",
+    mobile_number:"+0102121212"
+}
+
+2.
+Method => POST 
+Usage  =>  SignIn 
+API Endpoint => /api/v1/auth/signin
+Request body =>{
+    email:"youremail@mail.com",
+    password:"Password@321"
+}
+
+3.
+Method => GET 
+Usage  =>  Details of request user
+API Endpoint => /api/v1/auth/details
+Headers => 
+    Authorization :"jwt_token"
+Request body =>{}
